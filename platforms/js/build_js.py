@@ -236,8 +236,8 @@ if __name__ == "__main__":
     parser.add_argument('--skip_config', action="store_true", help="Skip cmake config")
     parser.add_argument('--config_only', action="store_true", help="Only do cmake config")
     parser.add_argument('--enable_exception', action="store_true", help="Enable exception handling")
-    parser.add_argument('-DCMAKE_TOOLCHAIN_FILE', help=" ")
-    parser.add_argument('-DCMAKE_CROSSCOMPILING_EMULATOR', help=" ")
+    parser.add_argument('-DCMAKE_TOOLCHAIN_FILE', help="asd")
+    parser.add_argument('-DCMAKE_CROSSCOMPILING_EMULATOR', help="dsa")
     # Use flag --cmake option="-D...=ON" only for one argument, if you would add more changes write new cmake_option flags
     parser.add_argument('--cmake_option', action='append', help="Append CMake options")
     # Use flag --build_flags="-s USE_PTHREADS=0 -Os" for one and more arguments as in the example
